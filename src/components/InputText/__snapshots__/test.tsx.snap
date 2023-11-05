@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputText /> should render the an input text 1`] = `
+.c0 {
+  display: grid;
+  position: relative;
+}
+
+.c1 {
+  display: flex;
+}
+
+.c2 {
+  font-size: 11px;
+  font-weight: 600;
+  margin: 0 5px 4px 0;
+}
+
+.c2.-error {
+  color: #ff0101;
+}
+
+.c3 {
+  appearance: none;
+  border: 1px solid #eba70e;
+  border-radius: 3px;
+  box-shadow: none;
+  height: 35px;
+  padding-left: 11px;
+  -webkit-appearance: none;
+}
+
+.c3.-util {
+  color: #24457b;
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+.c3::placeholder {
+  color: #24457b;
+  font-size: 11px;
+}
+
+@media screen and (max-width: 768px) {
+  .c2.-mr {
+    margin: 0 5px 20px 0;
+  }
+}
+
+<form>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <label
+        class="c2"
+      >
+        <label
+          for="firstname"
+        >
+          Name
+        </label>
+      </label>
+      <label
+        class="c2 -error"
+      />
+    </div>
+    <input
+      autocomplete="given-name"
+      class="c3"
+      data-testid="input"
+      id="firstname"
+      maxlength="20"
+      name="firstname"
+      placeholder="First"
+      type="text"
+    />
+  </div>
+  <input
+    type="submit"
+    value="Order"
+  />
+</form>
+`;

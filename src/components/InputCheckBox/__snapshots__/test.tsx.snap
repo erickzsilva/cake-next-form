@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputChebox /> should render the checkbox and on click it should be selected 1`] = `
+.c0 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  max-width: 180px;
+}
+
+.c1 {
+  margin-right: 8px;
+  position: relative;
+}
+
+.c2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #eba70e;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.c2:checked {
+  background: url('img/check.png') no-repeat center center;
+  background-size: 15px;
+  width: 15px;
+  height: 15px;
+}
+
+.c2:invalid {
+  border-color: red;
+}
+
+.c3 {
+  height: 100px;
+  max-width: 150px;
+  width: 100%;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <input
+      class="c2"
+      data-testid="checkbox"
+      type="checkbox"
+      value="Red Fruit Cake"
+    />
+  </div>
+  <img
+    alt="Red Fruit Cake"
+    class="c3"
+    src="img/redFruitCake.jpg"
+  />
+</div>
+`;

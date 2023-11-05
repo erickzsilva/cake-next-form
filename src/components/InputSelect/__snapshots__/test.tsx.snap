@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputSelect /> should be rendered and selected an option 1`] = `
+.c0 {
+  border: 1px solid #eba70e;
+  border-radius: 3px;
+  box-shadow: none;
+  color: #24457b;
+  font-size: 11px;
+  height: 35px;
+  padding-left: 5px;
+}
+
+<select
+  autocomplete="country-name"
+  class="c0"
+  data-testid="select"
+  id="country"
+>
+  <option
+    hidden=""
+    value=""
+  >
+    Country
+  </option>
+  <option
+    value="Argentina"
+  >
+    Argentina
+  </option>
+  <option
+    value="Brasil"
+  >
+    Brasil
+  </option>
+  <option
+    value="França"
+  >
+    França
+  </option>
+  <option
+    value="Mexico"
+  >
+    Mexico
+  </option>
+  <option
+    value="Paraguai"
+  >
+    Paraguai
+  </option>
+  <option
+    value="Portugal"
+  >
+    Portugal
+  </option>
+</select>
+`;
