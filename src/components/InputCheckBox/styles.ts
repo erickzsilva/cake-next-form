@@ -5,6 +5,10 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   max-width: 180px;
+
+  @media screen and (max-width: 768px) {
+    max-width: 300px;
+  }
 `
 export const Box = styled.div`
   margin-right: 8px;
@@ -21,11 +25,17 @@ export const CheckBox = styled.input`
   outline: none;
   cursor: pointer;
 
+  @media screen and (max-width: 768px) {
+    background-size: 17px;
+    width: 17px;
+    height: 17px;
+  }
+
   &:checked {
     background: url('img/check.png') no-repeat center center;
-    background-size: 15px;
-    width: 15px;
-    height: 15px;
+    background-size: 17px;
+    width: 17px;
+    height: 17px;
   }
 
   &:invalid {
@@ -37,4 +47,9 @@ export const Img = styled.img<{ $error?: boolean }>`
   height: 100px;
   max-width: 150px;
   width: 100%;
+
+  @media screen and (max-width: 768px) {
+    height: unset;
+    max-width: unset;
+  }
 `

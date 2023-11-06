@@ -27,9 +27,9 @@ exports[`<InputChebox /> should render the checkbox and on click it should be se
 
 .c2:checked {
   background: url('img/check.png') no-repeat center center;
-  background-size: 15px;
-  width: 15px;
-  height: 15px;
+  background-size: 17px;
+  width: 17px;
+  height: 17px;
 }
 
 .c2:invalid {
@@ -40,6 +40,27 @@ exports[`<InputChebox /> should render the checkbox and on click it should be se
   height: 100px;
   max-width: 150px;
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .c0 {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .c2 {
+    background-size: 17px;
+    width: 17px;
+    height: 17px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .c3 {
+    height: unset;
+    max-width: unset;
+  }
 }
 
 <div

@@ -48,6 +48,7 @@ export const Holder = styled.div`
 
     &.-gap-check {
       margin: 0 auto;
+      padding: 0 25px 0 14px;
     }
   }
 `
@@ -90,4 +91,9 @@ export const Submit = styled.input`
     position: relative;
     top: 1px;
   }
+`
+
+export const Required = styled.span`
+  color: red;
+  font-size: 1.5rem;
 `

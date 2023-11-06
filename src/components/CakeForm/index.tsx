@@ -67,7 +67,10 @@ const CakeForm = ({
 
   return (
     <S.Section>
-      <S.TitleForm>{textChooseYourCake}</S.TitleForm>
+      <S.TitleForm>
+        {textChooseYourCake}
+        {findItemChecked && <S.Required>&nbsp;*</S.Required>}
+      </S.TitleForm>
 
       <S.Form onSubmit={handleSubmit(onSubmit)}>
         <S.Holder className="-gap-check">
